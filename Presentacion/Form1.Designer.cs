@@ -201,6 +201,7 @@
             this.cboxTipoPago.Name = "cboxTipoPago";
             this.cboxTipoPago.Size = new System.Drawing.Size(121, 23);
             this.cboxTipoPago.TabIndex = 30;
+          //  this.cboxTipoPago.SelectedIndexChanged += new System.EventHandler(this.cboxTipoPago_SelectedIndexChanged);
             // 
             // txtPrecioTipoPago
             // 
@@ -440,6 +441,7 @@
             this.Controls.Add(this.iconPictureBox2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
